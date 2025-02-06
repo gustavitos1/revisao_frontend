@@ -1,0 +1,113 @@
+.div-row1 {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    background-color: #5e8de3;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.div-row2 {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    background-color: #6fc4d0;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+
+
+.div-baixa {
+    flex-direction: row;
+    display: flex;
+
+}
+
+.div-filho1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d3ecf5;
+    height: 150px;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    margin-left: 20px;
+    /*background-image: url("https://images.pexels.com/photos/792199/pexels-photo-792199.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");*/
+}
+
+.div-filho2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d3ecf5;
+    height: 150px;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    margin-left: 20px;
+    /*background-image: url("");*/
+}
+
+.div-filho3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d3ecf5;
+    height: 150px;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    margin-left: 20px;
+    /*background-image: url("");*/
+}
+
+.image {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: -218px;
+    left: -180px;
+    height: 90%;
+    width: 95%;
+}
+
+.div-filho h2 {
+    display: flex;
+    position: relative;
+    right: -270px;
+    bottom: -30px;
+}
+
+.div-filho ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -200px;
+    bottom: -30px;
+}
+
+.div-filho1 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+            display: flex;
+            gap: 15px;
+            margin-left: auto;
+            font-size: 18px;
+        }
+
+        .nav p {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav p.active {
+            text-decoration: underline;
+        }
